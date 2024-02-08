@@ -14,12 +14,6 @@ import { Router } from '@angular/router';
 export class HomepageComponent implements OnInit {
   user: any;
 
-  // constructor(private userdata: UsersdataService) {
-  //   userdata.user().subscribe((data) => {
-  //     this.user = data;
-  //     console.warn('data', data);
-  //   });
-  // }
   ngOnInit(): void {
     this.getdata();
     var test = localStorage.getItem('token');
@@ -102,23 +96,4 @@ export class HomepageComponent implements OnInit {
       },
     });
   }
-  // constructor(private dialoge: MatDialog) {}
-  // openDialog() {
-  //   this.dialoge
-  //     .open(CrudComponent, {
-  //       width: '50%',
-  //       height: '280px',
-  //     })
-  //     .afterClosed()
-  //     .subscribe((result) => {
-  //       if (result == 'add') {
-  //         // this.getData();
-  //         console.log(this.main1);
-  //         // this.str1 = this.main1;
-  //         // console.log(this.str1);
-  //         //           var storedData = localStorage.getItem();
-  //         // const parsedData = JSON.parse(storedData);
-  //       }
-  //     });
-  // }
 }
