@@ -1,10 +1,14 @@
 .main {
   background-color: #008080;
 }
-// input {
-//   border-color: linear-gradient(
-//     90deg,
-//     hsla(52, 94%, 21%, 1) 0%,
-//     hsla(56, 21%, 52%, 1) 100%
-//   );
-// }
+.input-detail {
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  font-size: 15px;
+}
+@media screen and (max-width: 600px) {
+  .input-detail {
+    width: 95%;
+  }
+}

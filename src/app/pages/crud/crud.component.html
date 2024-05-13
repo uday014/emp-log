@@ -1,18 +1,16 @@
 <div class="main">
   <div class="text-center pt-2">
-    <h3 class="">
+    <h3 style="color: white">
       <strong> Enter The Data </strong>
     </h3>
   </div>
-  <div
-    class="container d-flex align-items-end justify-content-center"
-    style="height: 35%"
-  >
+  <div class="container-fluid d-flex align-items-end justify-content-center">
     <div class="row mb-4">
       <div class="col-md-6">
         <input
           type="text"
           name="fName"
+          class="m-1 input-detail"
           placeholder="Enter the Name"
           [(ngModel)]="Name.name"
         />
@@ -21,6 +19,7 @@
         <input
           type="text"
           name="lName"
+          class="m-1 input-detail"
           placeholder="Enter the candidate id"
           [(ngModel)]="Name.candidate"
         />
@@ -29,6 +28,7 @@
         <input
           type="text"
           name="lName"
+          class="m-1 input-detail"
           placeholder="Enter your shift"
           [(ngModel)]="Name.shift"
         />
@@ -37,6 +37,7 @@
         <input
           type="text"
           name="lName"
+          class="m-1 input-detail"
           placeholder="Enter password"
           [(ngModel)]="Name.password"
         />
@@ -45,6 +46,7 @@
         <input
           type="text"
           name="lName"
+          class="m-1 input-detail"
           placeholder="Enter confirm password"
           [(ngModel)]="Name.conpassword"
           required

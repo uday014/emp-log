@@ -41,8 +41,7 @@ export class HomepageComponent implements OnInit {
   openDialog() {
     this.dialog
       .open(CrudComponent, {
-        width: '30%',
-        height: '200px',
+        width: '25rem',
       })
       .afterClosed()
       .subscribe((result) => {
@@ -55,8 +54,7 @@ export class HomepageComponent implements OnInit {
   edit(data: any) {
     this.dialog
       .open(EditcrudComponent, {
-        width: '30%',
-        height: '200px',
+        width: '25rem',
         data,
       })
       .afterClosed()
