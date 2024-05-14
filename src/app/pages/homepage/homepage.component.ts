@@ -47,6 +47,7 @@ export class HomepageComponent implements OnInit {
       .subscribe((result) => {
         if (result == 'add') {
           this.ngOnInit();
+          this.getdata();
         }
       });
   }
@@ -61,6 +62,7 @@ export class HomepageComponent implements OnInit {
       .subscribe((result) => {
         if (result == 'add') {
           this.ngOnInit();
+          this.getdata();
         }
       });
   }
